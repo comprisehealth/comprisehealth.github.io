@@ -40,7 +40,7 @@ video {
 
 @media (pointer: coarse) and (hover: none) {
   body {
-    background: url("../img/bg-mobile-fallback.jpg") #002E66 no-repeat center center scroll;
+    background: url("../img/rocks.jpg") #002E66 no-repeat center center scroll;
     background-size: cover;
   }
   body video {
@@ -57,6 +57,12 @@ video {
   background-color: #cd9557;
   opacity: 0.7;
   z-index: 1;
+}
+
+.icon {
+  width: 900px;
+  height: 105000px;
+  padding: 100px;
 }
 
 .masthead {
